@@ -1,94 +1,100 @@
-🌤️ City Weather Dashboard (Android App)
+# City Weather Dashboard App 🌤️
 
-A modern Android application that allows users to search for cities worldwide and view real-time weather information. Users can also create an account, log in securely, and save their favorite cities for quick access.
+This is an Android application that allows users to search for cities and view real-time weather information. The app also supports user login and lets users save their favorite cities using Firebase.
 
-Built using MVVM architecture, Firebase, and WeatherAPI.
+---
 
-✨ Key Features
-🔍 City Search
-Search any city worldwide
-Instant results using WeatherAPI
-Displays city, region, and country
-Tap to view detailed weather data
-🌦️ Weather Dashboard
-Current temperature (°C / °F)
-Weather condition with icon
-Feels-like temperature
-Humidity level
-Wind speed and direction
-Clean, card-based UI design
-🔐 Authentication
-Email & password registration/login
-Persistent login session
-Secure Firebase Authentication
-Sign out functionality
-⭐ Saved Cities
-Save favorite cities per user account
-Real-time Firestore updates
-View saved cities in a dedicated screen
-Delete cities with swipe or button action
-🧱 Tech Stack
-Java / Kotlin
-MVVM Architecture
-Fragments (FragmentManager)
-LiveData
-ViewBinding
-RecyclerView
-OkHttp (Networking)
-Firebase Authentication
-Cloud Firestore
-WeatherAPI
-🏗️ Architecture Overview
+## Features
 
-This project follows the MVVM pattern for clean separation of concerns:
+### 🔍 City Search
+- Search any city worldwide
+- Displays matching results in a list
+- Shows city name, region, and country
+- Tap a city to view weather details
 
-View (Fragments) → UI only, observes data
-ViewModel → Handles UI state with LiveData
-Repository Layer → Manages Firebase & API logic
-Model Layer → Data classes (City, Weather, User data)
+### 🌦️ Weather Dashboard
+- Current temperature (°C / °F)
+- Weather condition with icon
+- Feels like temperature
+- Humidity level
+- Wind speed and direction
+- Card-based layout
 
-This ensures the app is scalable, testable, and easy to maintain.
+### 🔐 Authentication
+- Email and password login/register
+- Firebase Authentication
+- Auto login if user already signed in
+- Sign out option
 
-🔄 App Flow
-User registers or logs in
-Searches for a city
-Views live weather dashboard
-Saves favorite cities
-Views saved cities in a separate screen
-Deletes or opens saved cities
-Logs out securely
-☁️ APIs & Services
-WeatherAPI
-City search endpoint
-Current weather endpoint
-Firebase
-Authentication (Email/Password)
-Cloud Firestore (user data storage)
-Real-time database updates
-🎨 UI/UX Highlights
-Modern card-based layout
-Consistent spacing and design system
-Clean weather-focused interface
-Smooth navigation between screens
-Empty states and error handling
-Mobile-friendly responsive design
-🚀 Getting Started
-Clone the repository
-Open in Android Studio
-Add google-services.json (Firebase setup)
-Add WeatherAPI key
-Sync Gradle and run the app
-👩‍💻 Developer
+### ⭐ Saved Cities
+- Save favorite cities per user
+- View saved cities in real time
+- Delete saved cities
+- Firebase Firestore integration
+
+---
+
+## Tech Stack
+
+- Java / Kotlin
+- MVVM Architecture
+- Fragments (FragmentManager)
+- LiveData
+- ViewBinding
+- RecyclerView
+- OkHttp
+- Firebase Authentication
+- Cloud Firestore
+- WeatherAPI
+
+---
+
+## Architecture
+
+The app follows MVVM structure:
+
+- **View (Fragments)** → UI layer
+- **ViewModel** → Handles UI state using LiveData
+- **Repository** → Manages Firebase + API calls
+- **Model** → Data classes
+
+---
+
+## App Flow
+
+1. User logs in or registers
+2. Searches for a city
+3. Views weather dashboard
+4. Saves favorite cities
+5. Views saved cities list
+6. Deletes cities if needed
+7. Signs out
+
+---
+
+## APIs Used
+
+- WeatherAPI (city search + weather data)
+- Firebase Authentication
+- Firebase Firestore
+
+---
+
+## Setup Instructions
+
+1. Clone the repository
+2. Open in Android Studio
+3. Add `google-services.json` (Firebase setup)
+4. Add WeatherAPI key
+5. Sync Gradle
+6. Run the app
+
+---
+
+## Developer
 
 Basma Ali
-Mobile Development Student | Android & Web Developer
 
-📌 Project Purpose
+---
 
-This project was built as part of a mobile development course to demonstrate:
 
-Android MVVM architecture
-API integration (WeatherAPI)
-Firebase Authentication & Firestore
-Clean UI/UX design principles
-Real-world mobile app structure
