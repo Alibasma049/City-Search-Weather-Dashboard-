@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "67421608667",
+    "project_id": "weathercityapp",
+    "storage_bucket": "weathercityapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67421608667:android:790cb68da1ab150aab0afe",
+        "android_client_info": {
+          "package_name": "com.assignmentAli.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ60rqxqB1U6dINI8zCUYBmRxusmbLukI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

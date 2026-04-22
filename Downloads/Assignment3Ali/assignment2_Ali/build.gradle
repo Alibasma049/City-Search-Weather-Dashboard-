@@ -1,0 +1,2 @@
+// Root project: plugin versions live in settings.gradle (pluginManagement.plugins).
+// The app module applies com.android.application, Kotlin, and Google Services there.

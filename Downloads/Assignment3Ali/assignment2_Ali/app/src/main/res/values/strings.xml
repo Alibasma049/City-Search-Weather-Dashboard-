@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WeatherSearchAPP</string>
+    <string name="title_weather">See Today\'s Weather</string>
+
+    <string name="enter_city">Enter city name</string>
+    <string name="search_button">Search</string>
+    <string name="no_results_found">No results found</string>
+    <string name="back_button">Back</string>
+
+    <string name="feels_Like">Feels like: %1$.1f°C</string>
+    <string name="humidity">Humidity: %1$d%%</string>
+    <string name="wind_speed">Wind Speed: %1$.1f km/h</string>
+    <string name="wind_direction">Wind Direction: %1$s</string>
+    <string name="temperature">%.1f°C / %.1f°F</string>
+    <string name="city_region_country">%1$s, %2$s</string>
+    <string name="enter_city_name">Enter city name</string>
+    <string name="search">Search</string>
+    <string name="feels_like">Feels Like</string>
+    <string name="back">Back</string>
+    <string name="wind_icon">Wind icon</string>
+    <string name="humidity_icon">Humidity icon</string>
+
+    <string name="weather_icon">Weather Icon</string>
+
+    <string name="login_subtitle">Sign in to continue</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_out">Sign out</string>
+    <string name="tab_search">Search</string>
+    <string name="tab_saved">Saved</string>
+    <string name="tab_settings">Settings</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="saved_cities_empty">No saved cities yet. Open a city on the weather screen and tap the bookmark icon.</string>
+    <string name="saved_last_searched">Last saved: %1$s</string>
+    <string name="delete_city">Delete city</string>
+    <string name="settings_placeholder">App settings and preferences will appear here.</string>
+
+    <string name="auth_error_invalid_credentials">Wrong email or password, or no account exists with this email.</string>
+    <string name="auth_error_signup_failed">Could not register. Check your email looks valid (e.g. name@example.com) and your password is at least 6 characters. If you already have an account, use Sign in.</string>
+    <string name="auth_error_invalid_email">Enter a valid email address (for example name@example.com).</string>
+    <string name="auth_error_email_in_use">This email is already registered. Try signing in instead.</string>
+    <string name="auth_error_weak_password">Password is too weak. Use at least 6 characters.</string>
+    <string name="auth_error_network">Network error. Check your connection and try again.</string>
+    <string name="auth_error_auth_not_configured">Email/password sign-in is turned off in Firebase. In Firebase Console: Authentication → Sign-in method → enable Email/Password.</string>
+    <string name="auth_error_too_many_requests">Too many attempts. Wait a minute and try again.</string>
+    <string name="auth_error_empty_fields">Enter both email and password.</string>
+    <string name="auth_error_unknown">Something went wrong. Try again.</string>
+
+</resources>
